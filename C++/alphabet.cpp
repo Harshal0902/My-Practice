@@ -17,3 +17,6 @@ int main()
         cout << c << " is a consonant.";
     return 0;
 }
+
+// Enter an alphabet: elephant
+// e is a vowel.
