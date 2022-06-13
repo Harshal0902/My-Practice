@@ -1,5 +1,5 @@
 -- Data Manipulation Language
--- Insert, Update, Delete, Select
+-- Insert, Update, Delete, Select, Merge
 
 -- Insert Values into a table
 INSERT INTO table_name VALUES(value1, value2, value3);
@@ -16,3 +16,6 @@ DELETE FROM Student WHERE id_no = 1;
 -- Select
 SELECT column1, column2, column3 FROM table_name WHERE condition;
 SELECT * FROM Student WHERE age > 20;
+
+-- Merge
+MERGE table_name USING table_name_2 ON (column1 = column2)
